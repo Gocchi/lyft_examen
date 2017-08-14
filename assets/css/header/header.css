@@ -1,0 +1,173 @@
+body{
+  width:100%;
+  height:100%;
+}
+
+#video-header{
+  position: relative;
+  height:16.5%;
+  width:100%;
+  float:left;
+}
+
+.formulario-header{
+  position:absolute;
+  float:right;
+  width:40%;
+  left: 60%;
+  margin-top: 8%;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.entradaForm:focus{
+    outline: none;
+}
+
+
+.titulo-formulario h1{
+ color: #352384;
+  font-family: 'Helvetica';
+  font-size: 3em;
+  margin-left:13%;
+  margin-top: -5%;
+  padding-top: 15%;
+
+
+}
+
+.titulo-formulario h2{
+  color:#6f268b;
+  font-family:'Helvetica';
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 13%;
+}
+
+.entradaForm{
+  font-family:'Helvetica';
+  margin-left: 13%;
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 80%;
+  padding-top: 8%;
+
+}
+
+.entradaForm:focus{
+  outline:0;
+}
+
+.entradaCity{
+  margin-left: 13%;
+  padding-top: 8%;
+  width: 50%;
+  display: inline-block;
+  border: none;
+  text-decoration: underline;
+  border-bottom: 1px solid #000;
+}
+
+.singUp{
+  font-family:'Helvetica';
+  font-size: 20px;
+  color: #848484;
+  margin-left: 5%;
+}
+.singUp:hover{
+  color:#DF0174;
+}
+.enlace{
+  font-family:'Helvetica';
+  font-size: 13px;
+  color: #848484;
+
+}
+.enlace:hover{
+  color:#DF0174;
+}
+.promo{
+  font-family:'Helvetica';
+  font-size: 15px;
+  color: #848484;
+  margin-left: 5%;
+}
+.promo:hover{
+  color:#DF0174;
+}
+
+.areaButton{
+  margin: 3% 10% 0%;
+}
+.areaButton button{
+  font-family:'Helvetica';
+  font-size: 20px;
+  color: white;
+  border-radius: 15px;
+  width: 50%;
+  height: 50px;
+  background-color: #ff00bf;
+  border: none;
+
+}
+.textoForm {
+  padding-top: 3%;
+  width: 80%;
+  font-size: 13px;
+  font-family:'Helvetica';
+  margin-left: 13%;
+  color: #848484;
+}
+
+.display{
+  display:none;
+}
+
+#seccion-header{
+ /*position: relative;*/
+ bottom: 5px;
+ /*z-index: -1;*/
+ background-image: linear-gradient(to bottom, #6b1d86, #6b1d86 60%, #2e1e67);
+ width: 100%;
+ height: 16.5%;
+}
+.contenedor-Parrafos{
+ position: relative;
+ width: 50%;
+ height: 850px;
+ margin-left:10%;
+ padding-top: 10%;
+ padding-bottom: 30%;
+ float: left;
+ color: white;
+}
+ .contenedor-Parrafos p{
+ color: white;
+ width: 100%;
+ font-size: 1.3em;
+ font-stretch: ultra-condensed;
+ font-family: 'Roboto', sans-serif;
+ margin-bottom: 10%;
+
+}
+.contenedor-Parrafos h3{
+  font-family: Helvetica;
+  font-size: 25px;
+  padding-right: 10%;
+
+}
+.ultimoParrafoHeader{
+  padding-bottom: 20%;
+}
+ .contenedor-phone{
+ position: relative;
+ width: 50%;
+ height: 1000px;
+ margin-left: 50%;
+ padding-top: 30%;
+}
+
+ .fotoPhone{
+ padding-top: 100px;
+ height: 400px;
+}
